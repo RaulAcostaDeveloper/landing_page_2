@@ -1,0 +1,109 @@
+#Header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#Header #headerCenter {
+    width: 100%;
+    text-align: center;
+}
+
+#Header .insideHeader {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#Header .direction {
+    font-size: 0.8em;
+    font-weight: bold;
+    min-width: 250px;
+}
+#Header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.897);
+}
+#Header a:hover {
+    text-decoration: underline;
+}
+#Header .insideHeader img {
+    height: 50%;
+}
+
+#Header .headerButtons {
+    min-width: 180px;
+}
+
+#Header .bookTable {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+#Header .burgerContainer {
+    z-index: 10;
+}
+
+#Header .burgerContainer .hamburgerMenu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#Header .burgerContainer .hamburgerMenu svg {
+    fill: none;
+    stroke: black;
+    /* Cambia el color del trazo a negro */
+    stroke-width: 2;
+    /* Puedes ajustar el ancho del trazo si es necesario */
+}
+
+#Header .burgerContainer .hamburgerMenu svg .line {
+    stroke: black;
+    /* Asegúrate de que todas las líneas sean de color negro */
+}
+
+#Header .burgerContainer .hamburgerMenu {
+    cursor: pointer;
+}
+
+#Header .burgerContainer .hamburgerMenu input {
+    display: none;
+}
+
+#Header .burgerContainer .hamburgerMenu svg {
+    /* The size of the SVG defines the overall size */
+    height: 60%;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#Header .line {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#Header .line-top-bottom {
+    stroke-dasharray: 12 63;
+}
+
+#Header .burgerContainer .hamburgerMenu input:checked+svg {
+    transform: rotate(-45deg);
+}
+
+#Header .burgerContainer .hamburgerMenu input:checked+svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+}
