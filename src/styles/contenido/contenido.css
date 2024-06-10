@@ -23,6 +23,7 @@
     #Contenido .contentArticle a {
         display: block;
         width: 100%;
+        padding: 0;
     }
     #Contenido .contentArticle p, #Contenido .contentArticle a {
         text-align: center;
