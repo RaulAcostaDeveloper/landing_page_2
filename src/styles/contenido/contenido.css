@@ -1,0 +1,21 @@
+#Contenido {
+    margin: 40px 0;
+}
+
+#Contenido .titleArticle {
+    width: 100%;
+    text-align: center;
+}
+
+#Contenido .contentArticle {
+    margin-top: 20px;
+}
+
+#Contenido .contentArticle p, #Contenido .contentArticle a {
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+#Contenido .contentArticle a {
+    color: #FF0000;
+}
