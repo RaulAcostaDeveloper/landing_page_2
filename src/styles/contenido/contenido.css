@@ -19,3 +19,12 @@
 #Contenido .contentArticle a {
     color: #FF0000;
 }
+@media (min-width: 1024px) {
+    #Contenido .contentArticle a {
+        display: block;
+        width: 100%;
+    }
+    #Contenido .contentArticle p, #Contenido .contentArticle a {
+        text-align: center;
+    }
+}
