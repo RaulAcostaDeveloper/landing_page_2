@@ -80,8 +80,8 @@ export const Header = () => {
                         </label>
                     </div>
                     <div className='insideHeader direction'>
-                        High Street, Bray, Berkshire, SL6 2AQ <br />
-                        01628 580333
+                        Open Street, Gray, Berishe, GL0 1GD <br />
+                        0535 980581
                     </div>
                     <div id='headerCenter' className='insideHeader'>
                         <div>

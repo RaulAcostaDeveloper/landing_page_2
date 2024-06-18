@@ -4,15 +4,15 @@ export const Contenido = () => {
         <section id="Contenido">
             <article>
                 <div className="titleArticle">
-                    <p>Discover a world of pure</p>
-                    <h2>CULINARY IMAGINATION</h2>
+                    <p>Descubre un universo de pura</p>
+                    <h2>INSPIRACIÓN GASTRONÓMICA</h2>
                 </div>
                 <div className='contentArticle'>
-                    <p>EXPERIENCE THE PRECISION AND INVENTION OF THREE-MICHELIN-STAR PERFECTION</p>
-                    <p>One of the fastest restaurants to ascend to three-star status, and once voted Best Restaurant by the World’s 50 Best, The Fat Duck is legendary for its exceptional creativity.</p>
-                    <p>Each visit to The Fat Duck is an adventure full of unexpected flavour pairings, playful innovation and unique culinary creations.</p>
-                    <p>Where will it take you?</p>
-                    <a href="#" rel="noopener noreferrer">View our menus</a>
+                    <p>VIVE LA PRECISIÓN Y LA INNOVACIÓN DE LA PERFECCIÓN DE TRES ESTRELLAS MICHELIN</p>
+                    <p>Uno de los restaurantes que más rápidamente alcanzó el prestigioso estatus de tres estrellas, y reconocido por su excelencia, El Pez Gordo es célebre por su creatividad inigualable.</p>
+                    <p>Cada visita a El Pez Gordo es un viaje lleno de combinaciones de sabores sorprendentes, innovación juguetona y creaciones culinarias singulares.</p>
+                    <p>¿Dónde te llevará?</p>
+                    <a href="#" rel="noopener noreferrer">Explora nuestros menús</a>
                 </div>
             </article>
         </section>
